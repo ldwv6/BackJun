@@ -10,6 +10,22 @@ namespace _1330
     {
         static void Main(string[] args)
         {
+            string[] s = Console.ReadLine().Split(new char[' ']);
+
+            if(A<B)
+            {
+                return 0; 
+            }
+
+            else if()
+            {
+                return 0;
+            }
+
+            else
+            {
+                return 0;
+            }
         }
     }
 }

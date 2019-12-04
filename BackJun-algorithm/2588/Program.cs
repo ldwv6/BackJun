@@ -16,14 +16,9 @@ namespace _2588
             char[] c2 = new char[c1.Length];
             Array.Reverse(c1);
          
-
-
             for(int i=0;i<c1.Length;i++)
             {
-
                 num1[i] = int.Parse(c1[i].ToString());
-       
-
             }
 
             for (int i = 0; i < c1.Length; i++)
@@ -31,15 +26,12 @@ namespace _2588
                 int a = int.Parse(s1);
 
                 Console.WriteLine(num1[i] * a);
-                
 
                 result = result + ((num1[i] * var1) * a);
 
                 var1 = var1 * 10;
             }
-
             Console.WriteLine(result);
-
         }
     }
 }
