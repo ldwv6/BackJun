@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4C17428E-9282-4738-A4C8-ABBEC795D217}</ProjectGuid>
+    <ProjectGuid>{CF9F9865-FDAF-4FD5-A5F3-31323FBE2BD0}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>BackJun</RootNamespace>
-    <AssemblyName>BackJun</AssemblyName>
+    <RootNamespace>BackJun_algorithm</RootNamespace>
+    <AssemblyName>BackJun-algorithm</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
