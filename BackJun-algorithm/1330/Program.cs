@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _1330
 {
@@ -10,21 +6,23 @@ namespace _1330
     {
         static void Main(string[] args)
         {
-            string[] s = Console.ReadLine().Split(new char[' ']);
+            string[] s = Console.ReadLine().Split(new char[] {' '});
+            int a = int.Parse(s[0]);
+            int b = int.Parse(s[1]);
 
-            if(A<B)
+            if( a < b )
             {
-                return 0; 
+                Console.WriteLine("<");          
             }
 
-            else if()
+            else if(a > b)
             {
-                return 0;
+                Console.WriteLine(">");
             }
 
-            else
+            else if(a == b)
             {
-                return 0;
+                Console.WriteLine("==");
             }
         }
     }
