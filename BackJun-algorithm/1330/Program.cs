@@ -6,7 +6,7 @@ namespace _1330
     {
         static void Main(string[] args)
         {
-            string[] s = Console.ReadLine().Split(new char[] {' '});
+            string[] s = Console.ReadLine().Split(' ');
             int a = int.Parse(s[0]);
             int b = int.Parse(s[1]);
 
