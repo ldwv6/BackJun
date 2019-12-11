@@ -7,7 +7,7 @@
     <ProjectGuid>{01CD0B68-4EA9-4B03-83C7-32800A8765FD}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>_15552</RootNamespace>
-    <AssemblyName>_15552</AssemblyName>
+    <AssemblyName>15552</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
