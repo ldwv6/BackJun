@@ -7,14 +7,16 @@ namespace _1110
         static void Main(string[] args)
         {
             string s = Console.ReadLine();
-            int i = 1;
-
-            int originNum = int.Parse(s);
+       
 
             if (int.Parse(s) < 10)
             {
                 s = s + 0;
             }
+
+            int i = 0;
+
+            int originNum = int.Parse(s);
 
             while (true)
             {
