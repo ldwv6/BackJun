@@ -32,13 +32,14 @@ namespace _1110
                 string therLastNum = (sumString[sumString.Length - 1]).ToString();
                 s = secondNum + therLastNum;
                 int result2 = int.Parse(s);
+                i++;
 
                 if (result2 == originNum)
                 {
                     Console.WriteLine(i);
                     break;
                 }
-                i++;
+      
             }
 
         }
